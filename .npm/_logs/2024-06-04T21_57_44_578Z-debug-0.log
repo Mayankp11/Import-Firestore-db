@@ -1,0 +1,132 @@
+0 verbose cli /usr/local/nvm/versions/node/v20.13.0/bin/node /usr/local/nvm/versions/node/v20.13.0/bin/npm
+1 info using npm@10.7.0
+2 info using node@v20.13.0
+3 silly config:load:file:/usr/local/nvm/versions/node/v20.13.0/lib/node_modules/npm/npmrc
+4 silly config:load:file:/home/mayank_techsorcerer/pet-theory/lab01/.npmrc
+5 silly config:load:file:/home/mayank_techsorcerer/.npmrc
+6 silly config:load:file:/usr/local/nvm/versions/node/v20.13.0/etc/npmrc
+7 verbose title npm install faker@5.5.3
+8 verbose argv "install" "faker@5.5.3"
+9 verbose logfile logs-max:10 dir:/home/mayank_techsorcerer/.npm/_logs/2024-06-04T21_57_44_578Z-
+10 verbose logfile /home/mayank_techsorcerer/.npm/_logs/2024-06-04T21_57_44_578Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly idealTree buildDeps
+13 silly fetch manifest faker@5.5.3
+14 http fetch GET 200 https://registry.npmjs.org/faker 195ms (cache miss)
+15 silly placeDep ROOT faker@5.5.3 OK for: lab01@1.0.0 want: 5.5.3
+16 silly reify moves {}
+17 silly audit bulk request {
+17 silly audit   '@google-cloud/common': [ '5.0.2' ],
+17 silly audit   '@google-cloud/firestore': [ '7.8.0' ],
+17 silly audit   '@google-cloud/logging': [ '11.1.0' ],
+17 silly audit   '@google-cloud/paginator': [ '5.0.2' ],
+17 silly audit   '@google-cloud/projectify': [ '4.0.0' ],
+17 silly audit   '@google-cloud/promisify': [ '4.0.0' ],
+17 silly audit   '@grpc/grpc-js': [ '1.10.8' ],
+17 silly audit   '@grpc/proto-loader': [ '0.7.13' ],
+17 silly audit   '@js-sdsl/ordered-map': [ '4.4.2' ],
+17 silly audit   '@protobufjs/aspromise': [ '1.1.2' ],
+17 silly audit   '@protobufjs/base64': [ '1.1.2' ],
+17 silly audit   '@protobufjs/codegen': [ '2.0.4' ],
+17 silly audit   '@protobufjs/eventemitter': [ '1.1.0' ],
+17 silly audit   '@protobufjs/fetch': [ '1.1.0' ],
+17 silly audit   '@protobufjs/float': [ '1.0.2' ],
+17 silly audit   '@protobufjs/inquire': [ '1.1.0' ],
+17 silly audit   '@protobufjs/path': [ '1.1.2' ],
+17 silly audit   '@protobufjs/pool': [ '1.1.0' ],
+17 silly audit   '@protobufjs/utf8': [ '1.1.0' ],
+17 silly audit   '@tootallnate/once': [ '2.0.0' ],
+17 silly audit   '@types/caseless': [ '0.12.5' ],
+17 silly audit   '@types/long': [ '4.0.2' ],
+17 silly audit   '@types/node': [ '20.14.1' ],
+17 silly audit   '@types/request': [ '2.48.12' ],
+17 silly audit   '@types/tough-cookie': [ '4.0.5' ],
+17 silly audit   'abort-controller': [ '3.0.0' ],
+17 silly audit   'agent-base': [ '7.1.1', '6.0.2' ],
+17 silly audit   'ansi-regex': [ '5.0.1' ],
+17 silly audit   'ansi-styles': [ '4.3.0' ],
+17 silly audit   arrify: [ '2.0.1' ],
+17 silly audit   asynckit: [ '0.4.0' ],
+17 silly audit   'base64-js': [ '1.5.1' ],
+17 silly audit   'bignumber.js': [ '9.1.2' ],
+17 silly audit   'buffer-equal-constant-time': [ '1.0.1' ],
+17 silly audit   cliui: [ '8.0.1' ],
+17 silly audit   'color-convert': [ '2.0.1' ],
+17 silly audit   'color-name': [ '1.1.4' ],
+17 silly audit   'combined-stream': [ '1.0.8' ],
+17 silly audit   'csv-parse': [ '5.5.6' ],
+17 silly audit   debug: [ '4.3.5' ],
+17 silly audit   'delayed-stream': [ '1.0.0' ],
+17 silly audit   'dot-prop': [ '6.0.1' ],
+17 silly audit   duplexify: [ '4.1.3' ],
+17 silly audit   'ecdsa-sig-formatter': [ '1.0.11' ],
+17 silly audit   'ee-first': [ '1.1.1' ],
+17 silly audit   'emoji-regex': [ '8.0.0' ],
+17 silly audit   'end-of-stream': [ '1.4.4' ],
+17 silly audit   escalade: [ '3.1.2' ],
+17 silly audit   'event-target-shim': [ '5.0.1' ],
+17 silly audit   eventid: [ '2.0.1' ],
+17 silly audit   uuid: [ '8.3.2', '9.0.1' ],
+17 silly audit   extend: [ '3.0.2' ],
+17 silly audit   'fast-deep-equal': [ '3.1.3' ],
+17 silly audit   'form-data': [ '2.5.1' ],
+17 silly audit   'functional-red-black-tree': [ '1.0.1' ],
+17 silly audit   gaxios: [ '6.6.0' ],
+17 silly audit   'gcp-metadata': [ '6.1.0' ],
+17 silly audit   'get-caller-file': [ '2.0.5' ],
+17 silly audit   'google-auth-library': [ '9.10.0' ],
+17 silly audit   'google-gax': [ '4.3.5' ],
+17 silly audit   gtoken: [ '7.1.0' ],
+17 silly audit   'html-entities': [ '2.5.2' ],
+17 silly audit   'http-proxy-agent': [ '5.0.0' ],
+17 silly audit   'https-proxy-agent': [ '7.0.4', '5.0.1' ],
+17 silly audit   inherits: [ '2.0.4' ],
+17 silly audit   'is-fullwidth-code-point': [ '3.0.0' ],
+17 silly audit   'is-obj': [ '2.0.0' ],
+17 silly audit   'is-stream': [ '2.0.1' ],
+17 silly audit   'json-bigint': [ '1.0.0' ],
+17 silly audit   jwa: [ '2.0.0' ],
+17 silly audit   jws: [ '4.0.0' ],
+17 silly audit   'lodash.camelcase': [ '4.3.0' ],
+17 silly audit   long: [ '5.2.3' ],
+17 silly audit   'mime-db': [ '1.52.0' ],
+17 silly audit   'mime-types': [ '2.1.35' ],
+17 silly audit   ms: [ '2.1.2' ],
+17 silly audit   'node-fetch': [ '2.7.0' ],
+17 silly audit   'object-hash': [ '3.0.0' ],
+17 silly audit   'on-finished': [ '2.4.1' ],
+17 silly audit   once: [ '1.4.0' ],
+17 silly audit   'proto3-json-serializer': [ '2.0.2' ],
+17 silly audit   protobufjs: [ '7.3.0' ],
+17 silly audit   pump: [ '3.0.0' ],
+17 silly audit   pumpify: [ '2.0.1' ],
+17 silly audit   'readable-stream': [ '3.6.2' ],
+17 silly audit   'require-directory': [ '2.1.1' ],
+17 silly audit   'retry-request': [ '7.0.2' ],
+17 silly audit   'safe-buffer': [ '5.2.1' ],
+17 silly audit   'stream-events': [ '1.0.5' ],
+17 silly audit   'stream-shift': [ '1.0.3' ],
+17 silly audit   string_decoder: [ '1.3.0' ],
+17 silly audit   'string-width': [ '4.2.3' ],
+17 silly audit   'strip-ansi': [ '6.0.1' ],
+17 silly audit   stubs: [ '3.0.0' ],
+17 silly audit   'teeny-request': [ '9.0.0' ],
+17 silly audit   tr46: [ '0.0.3' ],
+17 silly audit   'undici-types': [ '5.26.5' ],
+17 silly audit   'util-deprecate': [ '1.0.2' ],
+17 silly audit   'webidl-conversions': [ '3.0.1' ],
+17 silly audit   'whatwg-url': [ '5.0.0' ],
+17 silly audit   'wrap-ansi': [ '7.0.0' ],
+17 silly audit   wrappy: [ '1.0.2' ],
+17 silly audit   y18n: [ '5.0.8' ],
+17 silly audit   yargs: [ '17.7.2' ],
+17 silly audit   'yargs-parser': [ '21.1.1' ],
+17 silly audit   faker: [ '5.5.3' ]
+17 silly audit }
+18 silly tarball no local data for faker@https://registry.npmjs.org/faker/-/faker-5.5.3.tgz. Extracting by manifest.
+19 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 97ms
+20 silly audit report {}
+21 http fetch GET 200 https://registry.npmjs.org/faker/-/faker-5.5.3.tgz 1122ms (cache miss)
+22 silly ADD node_modules/faker
+23 verbose exit 0
+24 info ok

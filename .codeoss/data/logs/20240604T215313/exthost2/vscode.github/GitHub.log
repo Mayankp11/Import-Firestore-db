@@ -1,0 +1,4 @@
+2024-06-04 22:41:47.202 [info] Log level: Info
+2024-06-04 22:41:50.355 [warning] Failed to update repository branch protection: No GitHub authentication session available.
+2024-06-04 22:44:20.673 [warning] Failed to update repository branch protection: Request failed due to following response errors:
+ - Could not resolve to a Repository with the name 'Mayankp11/pet-theory'.
